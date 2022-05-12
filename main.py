@@ -2,15 +2,15 @@
 #-1 OK Get arguments from command line
 #-2 Reach seed
 #-3 OK Collect seed
-#-4 TODO Implement good practices
-#-5 TODO Read and respect robots.txt
+#-4 OK Implement good practices
+#-5 OK Read and respect robots.txt
 #-6 TODO Create heap from seed anchor text
 #-7 TODO parse heap
 #-8 TODO save corpus
 #-9 TODO implement multithreading
 #10 TODO Create Debug mode
 
-
+# 2.1 TODO: fix 'Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.'
 # 4.1 TODO: implement a default of at least 100ms between consecutive request to the same website
 # 4.2 TODO: abide by the Robots eclusion standart
 
