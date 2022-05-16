@@ -1,25 +1,32 @@
 #-0 OK assert usage
 #-1 OK Get arguments from command line
-#-2 Reach seed
+#-2 OK Reach seed
 #-3 OK Collect seed
 #-4 OK Implement good practices
 #-5 OK Read and respect robots.txt
-#-6 TODO Create heap from seed anchor text
-#-7 TODO parse heap
+#-6 OK Create heap from seed anchor text
+#-7 OK parse heap
 #-8 TODO save corpus
 #-9 TODO implement multithreading
 #10 TODO Create Debug mode
 
-# 2.1 TODO: fix 'Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.'
-# 4.1 TODO: implement a default of at least 100ms between consecutive request to the same website
-# 4.2 TODO: abide by the Robots eclusion standart
+
+
+# >>>> 2.1 TODO: fix 'Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.' 
+# 2.2 TODO: read sitemap
+
+# 4.1 OK: implement a default of at least 100ms between consecutive request to the same website
+# 4.2 OK: abide by the Robots eclusion standart
 
 # 6.1 TODO: implement selection policy (only follow links to html pages)
-# 6.2 TODO: implement profundity limit
-# 6.3 ok: implement normalization and enqueing policy
-# 6.4 TODO: implement revisitation policy
+# 6.1 OK: update url processing using url_normalize
+# 6.3 OK: implement profundity limit
+# 6.4 OK: implement normalization and enqueing policy
+# 6.5 TODO: implement better way to
+# 6.x TODO FUTURE: implement revisitation policy
 
 
+# 7.1 TODO Check for duplicates
 
 # 8.1 TODO: save raw HTML content using WARC format (1000 webpages per file)
 # 8.2 TODO: compress with gzip

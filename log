@@ -1,0 +1,76 @@
+[STATE: PAGE_REQUEST] couldn't access: http://www.exame.com/mercados/future-of-money
+HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/mercados/future-of-money/ (Caused by ResponseError('too many redirects'))Traceback (most recent call last):
+  File "c:\Users\PLour\00_Tudo\00_GitHub\RI\Web_crawler\utils.py", line 223, in expand_frontier
+    _page_request = http.request(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 405, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=conn)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/mercados/future-of-money/ (Caused by ResponseError('too many redirects'))
+[STATE: PAGE_REQUEST] couldn't access: http://www.exame.com/minhas-financas/future-of-money
+HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/minhas-financas/future-of-money/ (Caused by ResponseError('too many redirects'))Traceback (most recent call last):
+  File "c:\Users\PLour\00_Tudo\00_GitHub\RI\Web_crawler\utils.py", line 223, in expand_frontier
+    _page_request = http.request(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 405, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=conn)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/minhas-financas/future-of-money/ (Caused by ResponseError('too many redirects'))
+[STATE: PAGE_REQUEST] couldn't access: http://www.exame.com/onde-investir/future-of-money
+HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/onde-investir/future-of-money/ (Caused by ResponseError('too many redirects'))Traceback (most recent call last):
+  File "c:\Users\PLour\00_Tudo\00_GitHub\RI\Web_crawler\utils.py", line 223, in expand_frontier
+    _page_request = http.request(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 405, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=conn)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='exame.com', port=443): Max retries exceeded with url: https://exame.com/onde-investir/future-of-money/ (Caused by ResponseError('too many redirects'))
+[STATE: PAGE_REQUEST] couldn't access: https://academy.exame.com/signin/facebook
+HTTPSConnectionPool(host='m.facebook.com', port=443): Max retries exceeded with url: https://m.facebook.com/dialog/oauth?encrypted_query_string=AeDMD83YlR4xwaHLC6vjWilTIEq7khJeWQKWT0gkfEX2oMt6tOsJbxqgzN5Qa32BB4fIchQYDGWsqP7MJVTgMjV6EYqnBZxTRxSG-Aqh6vKNfW1wtVuHw89il-kgzQh8zahtGuoi69xFsG_5EOtT1AOoV4ioEma6d0ELkn_8eQtJiKoUqmvgW6J4FXeBcVcYyDAPOMIF_zC60wU4CJhCTuSS5TUU575pC1up6ax5fxyEjxeA2IItRu_crLiGnFqrfpd17h0Q6FbksvluM4YlJTWMh1Onbbh_lg&_rdr (Caused by ResponseError('too many redirects'))Traceback (most recent call last):
+  File "c:\Users\PLour\00_Tudo\00_GitHub\RI\Web_crawler\utils.py", line 223, in expand_frontier
+    _page_request = http.request(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 418, in urlopen
+    return self.urlopen(method, redirect_location, **kw)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\poolmanager.py", line 405, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=conn)
+  File "c:\Users\PLour\anaconda3\envs\web_crawler\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='m.facebook.com', port=443): Max retries exceeded with url: https://m.facebook.com/dialog/oauth?encrypted_query_string=AeDMD83YlR4xwaHLC6vjWilTIEq7khJeWQKWT0gkfEX2oMt6tOsJbxqgzN5Qa32BB4fIchQYDGWsqP7MJVTgMjV6EYqnBZxTRxSG-Aqh6vKNfW1wtVuHw89il-kgzQh8zahtGuoi69xFsG_5EOtT1AOoV4ioEma6d0ELkn_8eQtJiKoUqmvgW6J4FXeBcVcYyDAPOMIF_zC60wU4CJhCTuSS5TUU575pC1up6ax5fxyEjxeA2IItRu_crLiGnFqrfpd17h0Q6FbksvluM4YlJTWMh1Onbbh_lg&_rdr (Caused by ResponseError('too many redirects'))
