@@ -22,8 +22,9 @@
 # 6.1 OK: update url processing using url_normalize
 # 6.3 OK: implement profundity limit
 # 6.4 OK: implement normalization and enqueing policy
-# 6.5 TODO: implement better way to
+# 6.5 TODO: implement better way to dequeue
 # 6.x TODO FUTURE: implement revisitation policy
+# 6.x TODO FUTURE: implement graph
 
 
 # 7.1 TODO Check for duplicates
